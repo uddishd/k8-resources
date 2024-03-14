@@ -5,6 +5,7 @@ metadata:
   labels:
     Course: DevOps
     Cloud: AWS
+    Master: krish
 spec:
   containers:
   - name: label
