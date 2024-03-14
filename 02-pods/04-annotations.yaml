@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: annotations
+  labels:
+    Course: DevOps
+    Cloud: AWS
+    Master: krish
+  annotations:
+    com.roboshop.training.duration: 100 hrs
+    jenkins.url: https://jenkins.com/roboshop/catalogue#45
+spec:
+  containers:
+  - name: test-anno
+    image: nginx
+    ports:
+    - containerPort: 80
