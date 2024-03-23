@@ -4,4 +4,4 @@ metadata:
   name: devops-config
 data:
   course: DevOps
-  tools: "docker, k8's, terraform, ansible"
+  tools: "docker"
